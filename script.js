@@ -15,4 +15,8 @@ const closeModal = () => {
 }
 
 //TODO: Configurar listeners
+for (let i = 0; i < btnsOpenModal.length; i++)
+  btnsOpenModal[i].addEventListener('click', openModal)
+btnCloseModal.addEventListener('click', closeModal)
+overlay.addEventListener('click', closeModal)
 //
