@@ -4,7 +4,8 @@
   "description": "Juego de adivinar un número",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "rsync -ahv --exclude=node_modules --exclude=.git -e 'ssh -p 22123' . lucas@lucas.certweb.infenlaces.com:./ventanas-modales"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
