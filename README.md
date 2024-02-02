@@ -10,3 +10,4 @@
     - Investigar paquetes que podemos instalar de npm
     - Instalar paquetes con npm install
     - Configurar paquetes si necesario (leer doc de cada paquete)
+- Realiza varios commits (al menos 3) con una descripción y sentido adecuados.
